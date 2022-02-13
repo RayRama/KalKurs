@@ -38,7 +38,7 @@ export default ({ navigation }) => {
 
   axios
     .get(
-      `https://freecurrencyapi.net/api/v2/latest?apikey=ecc0d4e0-85c4-11ec-8687-1f4b5599d819&base_currency=${baseCurrency}`
+      `https://freecurrencyapi.net/api/v2/latest?apikey=CHANGETOYOURAPI&base_currency=${baseCurrency}`
     )
     .then((response) => {
       // console.log(response.data.data[baseCurrency]);
